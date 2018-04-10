@@ -1,11 +1,11 @@
 # senseHat_clock
 A clock, that shows sensor data for the raspberry pi sense hat
 
-#Install
+# Install
 
 Just copy `clock.py` to any folder and make it executable
 
-#Usage 
+# Usage 
 
 Just execute
 You may start it as dameon, by creating an systemD service.
