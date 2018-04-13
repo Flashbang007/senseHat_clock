@@ -9,7 +9,7 @@ Just copy `clock.py` to any folder and make it executable.
 
 Just execute.
 
-You may start it as dameon, by creating an systemD service.
+You may start it as daemon, by creating an systemD service.
 ```
 [Service]
 ExecStart=/PATH/TO/SCRIPT/clock_neu.py
