@@ -1,9 +1,9 @@
 # senseHat_clock
-A clock, that shows sensor data for the raspberry pi sense hat
+A clock, that shows sensor data for the raspberry pi sense hat.
 
 ## Install
 
-Just copy `clock.py` to any folder and make it executable
+Just copy `clock.py` to any folder and make it executable.
 
 ## Usage 
 
