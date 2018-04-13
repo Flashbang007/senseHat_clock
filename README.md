@@ -7,7 +7,8 @@ Just copy `clock.py` to any folder and make it executable.
 
 ## Usage 
 
-Just execute
+Just execute.
+
 You may start it as dameon, by creating an systemD service.
 ```
 [Service]
