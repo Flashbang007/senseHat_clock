@@ -23,7 +23,7 @@ def auto_rotate_display():
     sense.set_rotation(rot)
 
 
-def showSensorData():
+def show_sensor_data():
     temp = sense.get_temperature()
     humidity = sense.get_humidity()
     # pressure = sense.get_pressure()
@@ -32,7 +32,7 @@ def showSensorData():
     sense.show_message("%.1f%%" % humidity, scroll_speed=0.10, text_colour=[0, 0, 50])
 
 
-def showTime() -> object:
+def show_time():
     hour = str(time.localtime().tm_hour)
     minute = time.localtime().tm_min
 
@@ -54,8 +54,8 @@ while True:
     timeWait = 0
     while timeWait <= showSensorInterval:
         auto_rotate_display()
-        showTime()
+        show_time()
         time.sleep(1)
         timeWait += 1
 
-    showSensorData()
+    show_sensor_data()
